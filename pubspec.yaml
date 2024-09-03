@@ -1,0 +1,31 @@
+name: robot_delivery_app
+description: A Flutter app for robot delivery using WebSocket to communicate with ROSBridge.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web_socket_channel: ^2.2.0
+  cupertino_icons: ^1.0.8
+  permission_handler: ^10.2.0 # Replace with the latest version compatible with your Flutter SDK
+  provider: ^6.0.0
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/robot.png
+    - assets/icons/water.png
+    - assets/icons/chocolate.png
+    - assets/icons/nuts.png
+    - assets/icons/cola.png
